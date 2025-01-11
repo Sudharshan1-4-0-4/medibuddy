@@ -1,6 +1,6 @@
 
 import React, { useEffect, useState } from 'react';
-import './searchSection.css';
+import './searchsection.css';
 import { FaSearch } from 'react-icons/fa';
 
 const SearchSection = () => {
