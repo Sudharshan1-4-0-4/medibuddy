@@ -1,0 +1,32 @@
+.lifestyle-container {
+    padding: 20px;
+  }
+  
+  .lifestyle-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; 
+    justify-content: center;
+  }
+  
+  .lifestyle-card {
+    width: 200px;
+    border: 1px solid grey; 
+    border-radius: 18px;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+  .lifestyle-image {
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+    border-radius: 8px;
+  }
+  
+  .lifestyle-card h3 {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  

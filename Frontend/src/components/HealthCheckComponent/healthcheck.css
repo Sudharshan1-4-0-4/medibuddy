@@ -1,0 +1,78 @@
+.health-check-container {
+    padding: 20px;
+}
+
+.categories-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+    padding: 10px 0;
+}
+
+.category-item {
+    padding: 10px 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background-color 0.3s;
+    margin-right: 10px;
+}
+
+.category-item:hover {
+    background-color: #f1f1f1;
+}
+
+.category-item.active {
+    background-color: #4caf50;
+    color: white;
+    border-color: #4caf50;
+}
+
+.category-section {
+    margin-top: 30px;
+}
+
+.packages-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+.package-card {
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.package-image {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.package-details {
+    margin-top: 10px;
+}
+
+.package-details h3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.package-details p {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+@media (min-width: 768px) {
+    .package-card {
+        width: 250px;
+    }
+}
