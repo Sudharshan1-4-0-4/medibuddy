@@ -23,7 +23,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd frontend
+  cd Frontend
 ```
 
 Install dependencies
